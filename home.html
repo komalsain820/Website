@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: lightblue;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .card{
+            background: white;
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        button{
+            padding: 10px 20px;
+            background: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>🎉 Welcome, Komal!</h1>
+    <h2>Login Successful ✅</h2>
+    <p>You have successfully logged in.</p>
+
+    <button onclick="logout()">Logout</button>
+</div>
+
+<script>
+function logout(){
+    window.location.href="index.html";
+}
+</script>
+
+</body>
+</html>
